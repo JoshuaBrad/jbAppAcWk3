@@ -7,6 +7,11 @@
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="style.css">
+        <script>
+            function btnClick(){
+                alert("if you really thought that was going to do something and clog my back end, You're severely mistaken");
+            }
+        </script>
     </head>
     <body>
         <div id="header">
@@ -31,7 +36,7 @@
                         <input type="text" name="inpEmail" placeholder="Your email">
                         <br>
                         <textarea name="inpFeedback" id="inpTextarea" placeholder="Type your message here"></textarea>
-                        <input type="button" value="SUBMIT">
+                        <input type="button" value="SUBMIT" onclick="btnClick()">
                     </form>
                 </div>
             </div> 
