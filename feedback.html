@@ -9,8 +9,8 @@
         <link rel="stylesheet" href="style.css">
         <script>
             function btnClick(){
-                let randomResp = Math.random(1,6);
-                let outputAlert;
+                let randomResp = Math.floor(Math.random() * 5) + 1;
+                let outputAlert="";
                 switch(randomResp){
                     case 1:
                         outputAlert = "FUCK OFF!!!";
