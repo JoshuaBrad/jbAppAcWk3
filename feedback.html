@@ -9,7 +9,26 @@
         <link rel="stylesheet" href="style.css">
         <script>
             function btnClick(){
-                alert("if you really thought that was going to do something and clog my back end, you're severely mistaken");
+                let randomResp = random(1,6);
+                let outputAlert;
+                switch(randomResp){
+                    case 1:
+                        outputAlert = "FUCK OFF!!!";
+                        break;
+                    case 2:
+                        outputAlert = "Stop trying to clog my life!";
+                        break;
+                    case 3: 
+                        outputAlert = "The system is offffliiiiine (in a Xhosa accent)";
+                        break;
+                    case 4:
+                        outputAlert = "Eish baas, no submissions today";
+                        break;
+                    case 5: 
+                        outputAlert = "If you really thought that was going to do something and clog my backend, you're severely mistaken.";
+                        break;
+                }
+                alert(outputAlert);
             }
         </script>
     </head>
@@ -17,7 +36,7 @@
         <div id="header">
             <a href="index.html"><img src="images/logo.png" alt="logo"></a>
         </div>
-       <div id="tabs-top">
+        <div id="tabs-top">
             <a href="animals.html">ANIMALS</a>
             <a href="index.html">MAP</a>
             <a href="places.html">PLACES</a>
